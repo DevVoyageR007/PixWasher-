@@ -17,12 +17,20 @@ The interface is inspired by a “washing machine” concept to visually represe
 
 The full process of PixWasher can be understood through the following steps:
 
+---
+
 ### 1️⃣ Upload Image (Initial State)
 - User uploads an image using the **Choose image** button.
 - The system remains in **Ready** state until an image is selected.
 - Clear UI hints guide the user for best input quality.
 
-📸 *Screenshot: Initial interface & image upload*
+<p align="center">
+  <img src="screenshots/step-1-upload.png" width="700">
+</p>
+
+<p align="center">
+  <em>Initial interface showing image upload and ready state</em>
+</p>
 
 ---
 
@@ -31,7 +39,13 @@ The full process of PixWasher can be understood through the following steps:
 - The application processes the image using background removal logic.
 - Visual feedback indicates that the “wash” is in progress.
 
-📸 *Screenshot: Image loaded and ready for processing*
+<p align="center">
+  <img src="screenshots/step-2-processing.png" width="700">
+</p>
+
+<p align="center">
+  <em>Image loaded and background removal process initiated</em>
+</p>
 
 ---
 
@@ -40,28 +54,34 @@ The full process of PixWasher can be understood through the following steps:
 - User can download the final image as a **transparent PNG**.
 - Processing status updates clearly show completion.
 
-📸 *Screenshot: Final output with transparent background & download option*
+<p align="center">
+  <img src="screenshots/step-3-download.png" width="700">
+</p>
+
+<p align="center">
+  <em>Final output with transparent background and download option</em>
+</p>
 
 ---
 
 ## ✨ Key Features
 
-- 🧠 Smart background removal
-- 🖱️ One-click processing
-- 🎨 Clean, modern, dark-themed UI
-- 📷 High-quality transparent PNG output
-- 🔄 Clear step-by-step processing feedback
-- 💡 User-friendly interaction and status indicators
+- 🧠 Smart background removal  
+- 🖱️ One-click processing  
+- 🎨 Clean, modern, dark-themed UI  
+- 📷 High-quality transparent PNG output  
+- 🔄 Clear step-by-step processing feedback  
+- 💡 User-friendly interaction and status indicators  
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Backend:** Django (Python)
-- **Image Processing:** Computer Vision–based background removal
-- **Frontend:** HTML, CSS, JavaScript
-- **UI Styling:** Modern component-based design
-- **Output Format:** PNG with transparent background
+- **Backend:** Django (Python)  
+- **Image Processing:** Computer Vision–based background removal  
+- **Frontend:** HTML, CSS, JavaScript  
+- **UI Styling:** Modern component-based design  
+- **Output Format:** PNG with transparent background  
 
 ---
 
@@ -88,7 +108,7 @@ For collaboration, demo access, or research discussion:
 
 **Author:** Shantanu Kundu  
 **Email:** santanuk745@gmail.com  
-**Field:** Web Development · Computer Vision · Applied AI
+**Field:** Web Development · Computer Vision · Applied AI  
 
 ---
 
